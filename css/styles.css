@@ -1,0 +1,275 @@
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.logo > img {
+  width: 65px !important;
+}
+
+.header {
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+  /* position: fixed; */
+}
+
+.border-2 {
+  border: 4px solid #6c757d !important;
+}
+
+.bg-green {
+  background-color: #28a745;
+}
+
+.huge-top-margin {
+  margin-top: 126px;
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1rem !important;
+  }
+
+  h3 {
+    font-size: 1rem !important;
+  }
+
+  h6 {
+    font-size: 0.5rem;
+  }
+
+  .p-4 {
+    padding: 0.5rem !important;
+  }
+
+  .p-5 {
+    padding: 1rem !important;
+  }
+
+  .huge-top-margin-sm {
+    margin-top: 74px !important;
+  }
+
+  .mobi-font-8 {
+    font-size: 8px;
+  }
+
+  .image-hight {
+    height: 15% !important;
+  }
+
+  .mobi-hide {
+    display: none !important;
+  }
+
+  .desktop-hide {
+    display: inline !important;
+  }
+}
+
+/* @media (max-width: 768px) {
+  h2 {
+    font-size: 1rem !important;
+  }
+} */
+
+/* image styling */
+.wrap-custom-file {
+  position: relative;
+  display: inline-block;
+  height: 150px;
+  color: #777;
+  border: solid #777 1px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.wrap-custom-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 2px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.wrap-custom-file label {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+
+.wrap-custom-file label span {
+  display: block;
+  font-size: 1.4rem;
+  color: #777;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+.wrap-custom-file label:hover span {
+  color: #333;
+}
+
+.wrap-custom-file label.file-ok {
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap-custom-file label.file-ok span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* end image input */
+
+.info-links:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.iti__flag {
+  background-image: url("path/to/flags.png");
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {
+    background-image: url("path/to/flags@2x.png");
+  }
+}
+
+.image-hight {
+  height: 200px;
+}
+
+.img-size-sm {
+  width: 32%;
+}
+
+.user-img {
+  width: 19%;
+}
+
+.orange {
+  color: orange;
+}
+
+.negativem {
+  margin-bottom: -10px;
+}
+
+.desktop-hide {
+  display: none;
+}
+
+.bg-img {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../images/golf-bg.png");
+  /* opacity: 0.5; */
+}
+
+.w-80{
+  width: 80% !important;
+}
+
+.w-90{
+  width: 90% !important;
+}
+
+.w-15{  
+  width: 15%;
+}
+
+.w-10{
+  width: 10%;
+}
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: solid 1px #0069d9;
+  border-radius: 20px; 
+  background-image: none;
+}
+
+select::-ms-expand{
+  display: none;
+}
+.select{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 2em;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select{
+  flex:1;
+  padding: 0 .5em;
+  cursor: pointer;
+}
+.select::after{
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 12px;
+  color: white;
+  cursor: pointer;
+  pointer-events: none;
+  transition: .25s all ease;
+  background-color: #0069d9;
+  justify-content: center;
+  height: 100%;;
+  border-radius: 0 20px 20px 0;
+}
+
+#result{
+  display: none; 
+  /* d-flex */
+}
+
+#next{
+  display: none;
+}
+
+.image-icon{
+  width: 40px;
+  height: 40px;
+  margin: auto auto 0 0;
+}
